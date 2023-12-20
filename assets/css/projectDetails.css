@@ -1,0 +1,96 @@
+.projectDetailsMain {
+    margin: 0;
+    background-color: ghostwhite;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectDetailsMain {
+    padding: 20px 0;
+}
+
+.projectDetailsDiv {
+    margin: 10px;
+    padding: 25px;
+    width: 80%;
+
+    color: white;
+    background-color: rgb(36, 228, 186);
+    border: 2px solid rgb(36, 228, 186);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+
+    transition: all 0.25s ease-in-out;
+}
+
+.projectDetailsDiv h1 {
+    font-size: 2rem;
+}
+
+.projectDetailsDiv p {
+    font-size: 1.5rem;
+}
+
+.projectDetailsDiv:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 10px 2.5px #777;
+}
+
+#filter {
+    display: flex;
+    justify-content: center;
+    background-color: ghostwhite;
+    padding: 2rem 0;
+}
+
+#navbar {
+    padding: 10px;
+    width: 90%;
+    background-color: ghostwhite;
+    border: 2px solid rgb(23, 165, 134);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+#navbar button {
+    width: 100px;
+}
+
+#navbar label {
+    color: rgb(23, 165, 134);
+}
+
+#bugBox {
+    width: 80%;
+    padding: 20px 0;
+    background-color: rgb(255, 0, 0);
+    border-radius: 0.5rem;
+    color: #d9ff00;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bugBox div {
+    width: 500px;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 10px 0;  
+    background-color: rgb(23, 165, 134);
+    color: white;
+    padding: 5px;
+}
